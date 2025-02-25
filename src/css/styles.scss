@@ -12,9 +12,28 @@ body {
 .navbar-toggler {
     border: none;
     font-size: 18px;
+    padding: 0.5rem 0;
 }
 
 .navbar-toggler:hover {
     border: none;
     font-size: 18px;
+}
+
+// Offcanvas styles
+.offcanvas {
+    max-width: 300px;
+}
+
+.offcanvas-title {
+    font-weight: 600;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    padding: 0.75rem 0;
+}
+
+.btn-close {
+    font-size: 0.8rem;
 }
